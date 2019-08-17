@@ -29,3 +29,4 @@ for cou in range(1,10):
     time.sleep(1)
     #browser.find_element_by_xpath('//*[@id="layer_15660574768511"]/div[2]/div[4]/a[1]').click()
     browser.find_element_by_link_text("确定").click()
+browser.quit
